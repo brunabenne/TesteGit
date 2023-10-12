@@ -16,12 +16,13 @@ public class TesteGit {
 			soma += notas[i];
 		}
 		
+		int media = soma/5;
+		
+		System.out.println("As notas são: " + Arrays.toString(notas));
+		System.out.println("Soma das notas: " + soma);
+		System.out.println("Média das notas: " + media);
 		
 		
-		System.out.println("As notas são: ");
-		System.out.println(Arrays.toString(notas));
-		System.out.println("Soma das notas:");
-		System.out.println(soma);
 		
 		sc.close();
 	}
